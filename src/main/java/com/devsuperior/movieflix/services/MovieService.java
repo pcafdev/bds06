@@ -43,9 +43,9 @@ public class MovieService {
 		return page.map(x -> new MovieDTO(x));
 	}
 	
-//	public List<MovieReviewProjectionDTO> findReviews(Long movieId) {
-//		List<MovieReviewProjectionDTO> list = repository.findAll();
-//		return list.stream().map(x -> new GenreDTO(x)).collect(Collectors.toList());
+//	public List<MovieDTO> findReviews(Long movieId) {
+//		List<MovieDTO> list = repository.findMoviesWithGenre();
+//		return list.stream().map(x -> new MovieDTO(x)).collect(Collectors.toList());
 //	}
 	
 	

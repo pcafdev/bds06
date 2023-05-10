@@ -37,8 +37,8 @@ public class MovieResource {
 	}
 	
 //	@GetMapping(value = "/{id}/reviews")
-//	public ResponseEntity<List<MovieReviewProjectionDTO>> findReviews(@PathVariable Long movieId) {
-//		List<MovieReviewProjectionDTO> list = service.findReviews(movieId);
+//	public ResponseEntity<List<MovieDTO>> findReviews(@PathVariable Long movieId) {
+//		List<MovieDTO> list = service.findReviews(movieId);
 //		return ResponseEntity.ok().body(list);
 //	}	
 	
